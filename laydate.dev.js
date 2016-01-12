@@ -44,12 +44,12 @@ Dates.getPath = (function(){
 }());
 
 Dates.use = function(lib, id){
-    //var link = doc[creat]('link');
+    var link = doc[creat]('link');
     //link.type = 'text/css';
     //link.rel = 'stylesheet';
     //link.href = Dates.getPath + lib + as[5];
-    id && (link.id = id);
-    doc[tags]('head')[0].appendChild(link);
+    //id && (link.id = id);
+    //doc[tags]('head')[0].appendChild(link);
     link = null;
 };
 
