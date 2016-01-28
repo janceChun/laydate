@@ -166,8 +166,12 @@ Dates.run = function(options){
     } catch(e){
         target = {};
     }
-    elem = options.elem ? S(options.elem) : target;
-
+    if (options.element) {
+        elem = options.element;
+    } else {
+        elem = options.elem ? S(options.elem) : target;
+    }
+    //elem = options.elem ? S(options.elem) : target;
     as.elemv = /textarea|input/.test(elem.tagName.toLocaleLowerCase()) ? 'value' : 'innerHTML';
     if (('init' in options ? options.init : config.init) && (!elem[as.elemv])) elem[as.elemv] = laydate.now(null, options.format || config.format);
 
