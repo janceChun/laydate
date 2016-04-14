@@ -6,7 +6,7 @@
   "authors": [
     "wangyuchun <wangyuchun@yy.com>"
   ],
-  "description": "personal use",
+  "description": "jlaydate datetime angular",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
@@ -15,5 +15,8 @@
     "bower_components",
     "test",
     "tests"
+  ],
+  "keywords": [
+    "datetime"
   ]
 }
