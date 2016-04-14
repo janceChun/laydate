@@ -1,7 +1,7 @@
 {
   "name": "jlaydate",
   "main": "laydate.min.js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/janceChun/laydate",
   "authors": [
     "wangyuchun <wangyuchun@yy.com>"
